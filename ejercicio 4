@@ -1,0 +1,8 @@
+const deck = [2, 6, 10];
+
+function shiftThreeCardsAround(deck) {
+  const [first, middle, last] = deck;
+  return [middle, last, first]; 
+}
+
+console.log(shiftThreeCardsAround(deck));
