@@ -1,0 +1,8 @@
+const deck = [10, 7];
+
+function swapTwoCards(deck) {
+  [deck[0], deck[1]] = [deck[1], deck[0]];
+  return deck;
+}
+
+console.log(swapTwoCards(deck));
